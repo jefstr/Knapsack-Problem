@@ -1,0 +1,43 @@
+Knapsack Problem
+Jeff Parvin
+jpp30@pitt.edu
+10 Feb 2012
+
+
+INTRODUCTION
+
+The Knapsack Problem is a well-known optimization problem: A thief is robbing a safe and finds several different kinds of items with various sizes and values. There are a large number of each kind of item, but he has a knapsack of limited capacity. Find a most valuable set of items that will fit in the knapsack.
+
+This program implements three solutions to the Knapsack Problem:
+	A simple recursive solution.
+	A recursive solution with memo.
+	A bottom-up dynamic programming solution.
+This program also measures the work done by each method.
+
+The items and the capacity of the knapsack can be specified in the test file. 
+
+
+FILES
+
+The following files should be present:
+
+     	Thief.java - Thief class
+    	TestThief.java - Test file for Thief class
+
+
+USAGE
+
+Compile in Java 2 SDK 1.6 with:
+
+     javac TestThief.java
+
+Run with:
+
+     java TestThief
+
+
+KNOWN PROBLEMS
+
+None.
+
+
